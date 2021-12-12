@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Acuario_Javier_EsmeradoVela/1.0.0": {
+        "dependencies": {
+          "GMap.NET.Core": "1.6.0.0",
+          "GMap.NET.WindowsForms": "1.6.0.0"
+        },
+        "runtime": {
+          "Acuario_Javier_EsmeradoVela.dll": {}
+        }
+      },
+      "GMap.NET.Core/1.6.0.0": {
+        "runtime": {
+          "GMap.NET.Core.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
+          }
+        }
+      },
+      "GMap.NET.WindowsForms/1.6.0.0": {
+        "runtime": {
+          "GMap.NET.WindowsForms.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Acuario_Javier_EsmeradoVela/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GMap.NET.Core/1.6.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GMap.NET.WindowsForms/1.6.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

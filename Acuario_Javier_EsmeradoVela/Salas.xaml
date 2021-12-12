@@ -1,0 +1,62 @@
+﻿<Window x:Class="Acuario_Javier_EsmeradoVela.Salas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Acuario_Javier_EsmeradoVela"
+        mc:Ignorable="d"
+        Title="Salas" Height="450" Width="800" Background="#FF488286" WindowStyle="None">
+    <Grid>
+        <Image HorizontalAlignment="Center" Height="405" Margin="0,113,0,0" VerticalAlignment="Top" Width="855" Source="/salasWallpaper.png"/>
+        <Image HorizontalAlignment="Left" Height="238" Margin="103,0,0,0" VerticalAlignment="Top" Width="617" Source="/salastitle.png"/>
+        <Button Click="Salir"  Content="Salir" HorizontalAlignment="Left" Margin="707,10,0,0" VerticalAlignment="Top" Height="27" Width="61" RenderTransformOrigin="0.954,0.508" Foreground="White">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFB0B0B"/>
+                    <GradientStop Color="#FFFF5858" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Click="visita_guiada"  Content="Visita Guidada" HorizontalAlignment="Center" Margin="0,174,0,0" VerticalAlignment="Top" Height="35" Width="136" RenderTransformOrigin="0.954,0.508" Foreground="White" FontSize="16">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFDC5D5D"/>
+                    <GradientStop Color="#FFFF5858" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Click="mamiferos"  Content="Mamíferos" HorizontalAlignment="Left" Margin="44,229,0,0" VerticalAlignment="Top" Height="26" Width="102" RenderTransformOrigin="0.954,0.508" Foreground="White" FontSize="16">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF4159F1"/>
+                    <GradientStop Color="#FF3C8C9E" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Click="tropical"  Content="Tropical" HorizontalAlignment="Left" Margin="250,229,0,0" VerticalAlignment="Top" Height="26" Width="102" RenderTransformOrigin="0.954,0.508" Foreground="White" FontSize="16">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF4159F1"/>
+                    <GradientStop Color="#FF3C8C9E" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Click="crustaceos"  Content="Crustáceos" HorizontalAlignment="Left" Margin="456,229,0,0" VerticalAlignment="Top" Height="26" Width="102" RenderTransformOrigin="0.954,0.508" Foreground="White" FontSize="16">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF4159F1"/>
+                    <GradientStop Color="#FF3C8C9E" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Click="invertebrados"  Content="Invertebrados" HorizontalAlignment="Left" Margin="660,229,0,0" VerticalAlignment="Top" Height="26" Width="108" RenderTransformOrigin="0.954,0.508" Foreground="White" FontSize="16">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF4159F1"/>
+                    <GradientStop Color="#FF3C8C9E" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

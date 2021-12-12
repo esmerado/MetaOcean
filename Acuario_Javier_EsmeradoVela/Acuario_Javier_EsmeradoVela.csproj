@@ -1,0 +1,70 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BackgroundControlPiscinas.jpg" />
+    <None Remove="conjunto-mamiferos-marinos_21565-44.jpg" />
+    <None Remove="Contacto.png" />
+    <None Remove="crustaceos_text.png" />
+    <None Remove="CRUSTACEOS_TITLE.png" />
+    <None Remove="homeChoice.png" />
+    <None Remove="homeChoiceColors.png" />
+    <None Remove="images %281%29.jpg" />
+    <None Remove="images.jpg" />
+    <None Remove="invertebrados.png" />
+    <None Remove="INVERTEBRADOS_TITLE.png" />
+    <None Remove="mainBg.jpg" />
+    <None Remove="MAMIFEROSMARINOS.png" />
+    <None Remove="maps.jpg" />
+    <None Remove="MetaOceanTitle.png" />
+    <None Remove="peces-tropicales.jpg" />
+    <None Remove="peces-tropicales_txt_png.png" />
+    <None Remove="RESMUNEMAMIFEROS.png" />
+    <None Remove="salastitle.png" />
+    <None Remove="salasWallpaper.png" />
+    <None Remove="tresenraya.png" />
+    <None Remove="tropi.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="GMap.NET.Core">
+      <HintPath>bin\Debug\GMap.NET.Core.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsForms">
+      <HintPath>bin\Debug\GMap.NET.WindowsForms.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="BackgroundControlPiscinas.jpg" />
+    <Resource Include="conjunto-mamiferos-marinos_21565-44.jpg" />
+    <Resource Include="Contacto.png" />
+    <Resource Include="crustaceos_text.png" />
+    <Resource Include="CRUSTACEOS_TITLE.png" />
+    <Resource Include="homeChoice.png" />
+    <Resource Include="homeChoiceColors.png" />
+    <Resource Include="images (1).jpg" />
+    <Resource Include="images.jpg" />
+    <Resource Include="invertebrados.png" />
+    <Resource Include="INVERTEBRADOS_TITLE.png" />
+    <Resource Include="mainBg.jpg" />
+    <Resource Include="MAMIFEROSMARINOS.png" />
+    <Resource Include="maps.jpg" />
+    <Resource Include="MetaOceanTitle.png" />
+    <Resource Include="peces-tropicales.jpg" />
+    <Resource Include="peces-tropicales_txt_png.png" />
+    <Resource Include="RESMUNEMAMIFEROS.png" />
+    <Resource Include="salastitle.png" />
+    <Resource Include="salasWallpaper.png" />
+    <Resource Include="tresenraya.png" />
+    <Resource Include="tropi.png" />
+  </ItemGroup>
+
+</Project>

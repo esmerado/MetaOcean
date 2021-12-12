@@ -1,0 +1,40 @@
+﻿<Window x:Class="Acuario_Javier_EsmeradoVela.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Acuario_Javier_EsmeradoVela"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStyle="None"
+        >
+    <Window.Background>
+        <ImageBrush ImageSource="/mainBg.jpg"/>
+    </Window.Background>
+
+    <Window.Resources>
+        <Style x:Key="RoundButton" TargetType="Button">
+            <Setter Property="Width" Value="25"/>
+            <Setter Property="Height" Value="25"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid>
+                            <Ellipse Name="GelBackground" StrokeThickness="1" Stroke="White" Fill="#FF488286"/>
+                            <ContentPresenter Name="GelButtonContent" VerticalAlignment="Center" HorizontalAlignment="Center" Content="{TemplateBinding Content}"></ContentPresenter>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Button
+            Content="Inicio"
+            Style="{StaticResource RoundButton}"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Width="120" Height="120" FontSize="20" FontWeight="Bold" FontStyle="Italic" FontFamily="Bahnschrift SemiBold" Foreground="White"  Click="Inicio"/>
+    </Grid>
+</Window>

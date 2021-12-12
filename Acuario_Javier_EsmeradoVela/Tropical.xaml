@@ -1,0 +1,25 @@
+﻿<Window x:Class="Acuario_Javier_EsmeradoVela.Tropical"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Acuario_Javier_EsmeradoVela"
+        mc:Ignorable="d"
+        Title="Tropical" Height="450" Width="800" WindowStyle="None">
+    <Grid Background="#FF488286">
+        <Image Source="/tropi.png" Margin="-74,0,-74,140"/>
+        <Image Source="/peces-tropicales.jpg" Margin="-7,126,406,88"/>
+        <Image Source="/peces-tropicales_txt_png.png" Margin="338,50,-21,90"/>
+        <Button Click="Next"  Content="Next" HorizontalAlignment="Left" Margin="700,372,0,0" VerticalAlignment="Top" Height="27" Width="61" Background="#FFD2D2D2"/>
+        <Button Click="Back"  Content="Back" HorizontalAlignment="Left" Margin="10,372,0,0" VerticalAlignment="Top" Height="27" Width="61" Background="#FFD2D2D2" RenderTransformOrigin="0.954,0.508"/>
+        <Button Click="Salir"  Content="Salir" HorizontalAlignment="Left" Margin="707,10,0,0" VerticalAlignment="Top" Height="27" Width="61" RenderTransformOrigin="0.954,0.508" Foreground="White">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFB0B0B"/>
+                    <GradientStop Color="#FFFF5858" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

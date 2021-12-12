@@ -1,0 +1,58 @@
+﻿<Window x:Class="Acuario_Javier_EsmeradoVela.Minijuegos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Acuario_Javier_EsmeradoVela"
+        mc:Ignorable="d"
+        Title="Minijuegos" Height="450" Width="800" WindowStyle="None">
+    <Grid Name="borde" Background="#FF488286">
+        <!-- MENU -->
+        <Menu VerticalAlignment="Top" Height="20">
+            <!-- JUEGO -->
+            <MenuItem Header="Opciones">
+                <MenuItem Header="Cambiar color fondo">
+                    <MenuItem Name="fondoBlanco" Header="Blanco" IsCheckable="True" IsChecked="True" Click="EvtCambiarFondo"/>
+                    <MenuItem Name="fondoVerde" Header="Verde" IsCheckable="True" Click="EvtCambiarFondo"/>
+                    <MenuItem Name="fondoMarron" Header="Marrón" IsCheckable="True" Click="EvtCambiarFondo"/>
+                </MenuItem>
+            </MenuItem>
+
+            <!-- AYUDA -->
+            <!--<MenuItem Header="Ayuda">
+                <MenuItem Header="Como jugar"/>
+                <MenuItem Header="Acerca de..."/>
+            </MenuItem>-->
+        </Menu>
+        <Grid Name="gridJuego" Margin="-1,20,-1,-1" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Name="btn1" Content="" Grid.Column="0" Grid.Row="0" FontSize="72" FontFamily="Wide Latin" Click="EvtPonerFicha" BorderThickness="0,0,5,5" Margin="181,96,215,87" Grid.ColumnSpan="2" Grid.RowSpan="2" BorderBrush="Black"/>
+            <Button Name="btn2" Content="" Grid.Row="0" FontSize="72" FontFamily="Wide Latin" Click="EvtPonerFicha" BorderThickness="5,0,5,5" Margin="54,96,76,87" Grid.Column="1" Grid.RowSpan="2" BorderBrush="Black"/>
+            <Button Name="btn3" Content="" Grid.Column="1" Grid.Row="0" FontSize="72" FontFamily="Wide Latin" Click="EvtPonerFicha" BorderThickness="5,0,0,5" Margin="193,96,203,87" Grid.ColumnSpan="2" Grid.RowSpan="2" BorderBrush="Black"/>
+            <Button Name="btn4" Content="" Grid.Column="0" FontSize="72" FontFamily="Wide Latin" Click="EvtPonerFicha" BorderThickness="0,5,5,5" Margin="181,54,215,129" Grid.RowSpan="2" Grid.ColumnSpan="2" Grid.Row="1" BorderBrush="Black"/>
+            <Button Name="btn5" Content="" FontSize="72" FontFamily="Wide Latin" Click="EvtPonerFicha" BorderThickness="5,5,5,5" Margin="54,54,76,129" Grid.RowSpan="2" Grid.Column="1" Grid.Row="1" BorderBrush="Black"/>
+            <Button Name="btn6" Content="" Grid.Column="1" FontSize="72" FontFamily="Wide Latin" Click="EvtPonerFicha" BorderThickness="5,5,0,5" Margin="193,54,203,129" Grid.RowSpan="2" Grid.ColumnSpan="2" Grid.Row="1" BorderBrush="Black"/>
+            <Button Name="btn7" Content="" Grid.Column="0" Grid.Row="2" FontSize="72" FontFamily="Wide Latin" Click="EvtPonerFicha" BorderThickness="0,5,5,0" Margin="181,9,215,34" Grid.ColumnSpan="2" BorderBrush="Black"/>
+            <Button Name="btn8" Content="" Grid.Row="2" FontSize="72" FontFamily="Wide Latin" Click="EvtPonerFicha" BorderThickness="5,5,5,0" Margin="54,9,76,34" Grid.Column="1" BorderBrush="Black"/>
+            <Button Name="btn9" Content="" Grid.Column="1" Grid.Row="2" FontSize="72" FontFamily="Wide Latin" Click="EvtPonerFicha" BorderThickness="5,5,0,0" Margin="193,9,203,34" Grid.ColumnSpan="2" BorderBrush="Black"/>
+            <Button Click="Salir"  Content="Salir" HorizontalAlignment="Left" Margin="172,10,0,0" VerticalAlignment="Top" Height="27" Width="61" RenderTransformOrigin="0.954,0.508" Foreground="White" Grid.Column="2">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFFB0B0B"/>
+                        <GradientStop Color="#FFFF5858" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+        </Grid>
+        <Image Source="/tresenraya.png" Margin="147,-10,148,265"/>
+    </Grid>
+</Window>
