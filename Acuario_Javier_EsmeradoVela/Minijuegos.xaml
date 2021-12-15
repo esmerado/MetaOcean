@@ -53,6 +53,6 @@
                 </Button.Background>
             </Button>
         </Grid>
-        <Image Source="/tresenraya.png" Margin="147,-10,148,265"/>
+        <Image Source="/tresenraya.png" Margin="147,-10,148,288"/>
     </Grid>
 </Window>

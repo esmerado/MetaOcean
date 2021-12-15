@@ -5,102 +5,36 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Acuario_Javier_EsmeradoVela"
         mc:Ignorable="d"
-        Title="Home" Height="450" Width="800" Background="#FF488286" WindowStyle="None">
+        Title="Home" Height="450" Width="800" Background="#FFECECEC">
 
-    <Window.Resources>
-        <Style x:Key="RoundButtonRed" TargetType="Button">
-            <Setter Property="Width" Value="25"/>
-            <Setter Property="Height" Value="25"/>
-            <Setter Property="Background" Value="White"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type Button}">
-                        <Grid>
-                            <Ellipse Name="GelBackground" StrokeThickness="1" Stroke="White" Fill="#FFCD3F3F"/>
-                            <ContentPresenter Name="GelButtonContent" VerticalAlignment="Center" HorizontalAlignment="Center" Content="{TemplateBinding Content}"></ContentPresenter>
-                        </Grid>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
 
-        <Style x:Key="RoundButtonGreen" TargetType="Button">
-            <Setter Property="Width" Value="25"/>
-            <Setter Property="Height" Value="25"/>
-            <Setter Property="Background" Value="White"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type Button}">
-                        <Grid>
-                            <Ellipse Name="GelBackground" StrokeThickness="1" Stroke="White" Fill="#FF2FB93C" Margin="0,2,5,2"/>
-                            <ContentPresenter Name="GelButtonContent" VerticalAlignment="Center" HorizontalAlignment="Center" Content="{TemplateBinding Content}"></ContentPresenter>
-                        </Grid>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-
-        <Style x:Key="RoundButtonPurple" TargetType="Button">
-            <Setter Property="Width" Value="25"/>
-            <Setter Property="Height" Value="25"/>
-            <Setter Property="Background" Value="White"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type Button}">
-                        <Grid>
-                            <Ellipse Name="GelBackground" StrokeThickness="1" Stroke="White" Fill="#FF933FCD"/>
-                            <ContentPresenter Name="GelButtonContent" VerticalAlignment="Center" HorizontalAlignment="Center" Content="{TemplateBinding Content}"></ContentPresenter>
-                        </Grid>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-
-        <Style x:Key="RoundButtonBlue" TargetType="Button">
-            <Setter Property="Width" Value="25"/>
-            <Setter Property="Height" Value="25"/>
-            <Setter Property="Background" Value="White"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type Button}">
-                        <Grid>
-                            <Ellipse Name="GelBackground" StrokeThickness="1" Stroke="White" Fill="#FF3F79CD" HorizontalAlignment="Center" Width="69"/>
-                            <ContentPresenter Name="GelButtonContent" VerticalAlignment="Center" HorizontalAlignment="Center" Content="{TemplateBinding Content}"></ContentPresenter>
-                        </Grid>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-
-    </Window.Resources>
 
     <Grid>
-        <Image HorizontalAlignment="Center" Height="248" Margin="0,-39,0,0" VerticalAlignment="Top" Width="607" Source="/MetaOceanTitle.png"/>
-        <Image HorizontalAlignment="Center" Height="390" Margin="0,134,0,0" VerticalAlignment="Top" Width="800" Source="/homeChoiceColors.png"/>
         <Button
-            Content="Pulse aquí!"
-            Style="{StaticResource RoundButtonRed}"
+            Content="Control de Piscinas"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
-            Width="69" Height="68" FontSize="14" FontWeight="Normal" FontStyle="Italic" FontFamily="Bahnschrift Light SemiCondensed" Foreground="White"  Click="ControlPiscinas" Margin="67,348,0,0"/>
-        <Button Content="Pulse aquí!"
-            Style="{StaticResource RoundButtonGreen}"
-            HorizontalAlignment="Left"
-            VerticalAlignment="Top"
-            Width="69" Height="68" FontSize="14" FontWeight="Normal" FontStyle="Italic" FontFamily="Bahnschrift Light SemiCondensed" Foreground="White"  Click="Salas" RenderTransformOrigin="0.59,0.476" Margin="271,342,0,0"/>
+            Width="140" Height="53" FontSize="14" FontWeight="Normal" FontStyle="Italic" FontFamily="Bahnschrift Light SemiCondensed" Foreground="White" Click="ControlPiscinas" Margin="413,126,0,0" Background="#FF488286"/>
 
-        <Button Content="Pulse aquí!"
-            Style="{StaticResource RoundButtonPurple}"
+        <Button Content="Nuestras Salas"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
-            Width="69" Height="68" FontSize="14" FontWeight="Normal" FontStyle="Italic" FontFamily="Bahnschrift Light SemiCondensed" Foreground="White"  Click="Minijuegos" RenderTransformOrigin="0.59,0.476" Margin="467,344,0,0"/>
+            Width="140" Height="53" FontSize="14" FontWeight="Normal" FontStyle="Italic" FontFamily="Bahnschrift Light SemiCondensed" Foreground="White" Background="#FF488286"  Click="Salas" RenderTransformOrigin="0.59,0.476" Margin="611,126,0,0"/>
 
-        <Button Content="Pulse aquí!"
-            Style="{StaticResource RoundButtonBlue}"
+        <Button Content="Minijuegos"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
-            Width="77" Height="68" FontSize="14" FontWeight="Normal" FontStyle="Italic" FontFamily="Bahnschrift Light SemiCondensed" Foreground="White"  Click="Contacto" RenderTransformOrigin="0.59,0.476" Margin="661,348,0,0"/>
-        <Button Content="Exit" HorizontalAlignment="Left" Margin="747,21,0,0" VerticalAlignment="Top" Width="32" Height="23" Background="Red" Foreground="White" Click="Exit"/>
+            Width="140" Height="53" FontSize="14" FontWeight="Normal" FontStyle="Italic" FontFamily="Bahnschrift Light SemiCondensed" Foreground="White" Background="#FF488286" Click="Minijuegos" RenderTransformOrigin="0.59,0.476" Margin="413,239,0,0"/>
+
+        <Button Content="Contacto"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Width="140" Height="53" FontSize="14" FontWeight="Normal" FontStyle="Italic" FontFamily="Bahnschrift Light SemiCondensed" Foreground="White" Background="#FF488286" Click="Contacto" RenderTransformOrigin="0.59,0.476" Margin="611,239,0,0"/>
+
+        <Button Content="Salir" HorizontalAlignment="Left" Margin="727,21,0,0" VerticalAlignment="Top" Width="45" Height="32" Background="Red" Foreground="White" Click="Exit" FontSize="16" />
+        <Image HorizontalAlignment="Left" Height="458" VerticalAlignment="Top" Width="363" Source="/wpbg.jpg"/>
+        <Image HorizontalAlignment="Left" Height="181" Margin="-40,0,0,0" VerticalAlignment="Top" Width="442" Source="/MetaOceanTitle.png"/>
+        <Image HorizontalAlignment="Left" Height="414" Margin="10,32,0,0" VerticalAlignment="Top" Width="345" Source="/txtI.png"/>
 
 
     </Grid>

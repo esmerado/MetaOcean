@@ -10,8 +10,8 @@
         <Image Source="/tropi.png" Margin="-74,0,-74,140"/>
         <Image Source="/peces-tropicales.jpg" Margin="-7,126,406,88"/>
         <Image Source="/peces-tropicales_txt_png.png" Margin="338,50,-21,90"/>
-        <Button Click="Next"  Content="Next" HorizontalAlignment="Left" Margin="700,372,0,0" VerticalAlignment="Top" Height="27" Width="61" Background="#FFD2D2D2"/>
-        <Button Click="Back"  Content="Back" HorizontalAlignment="Left" Margin="10,372,0,0" VerticalAlignment="Top" Height="27" Width="61" Background="#FFD2D2D2" RenderTransformOrigin="0.954,0.508"/>
+        <Button Click="Next"  Content="Siguiente" HorizontalAlignment="Left" Margin="700,372,0,0" VerticalAlignment="Top" Height="27" Width="61" Background="#FFD2D2D2"/>
+        <Button Click="Back"  Content="Volver" HorizontalAlignment="Left" Margin="10,372,0,0" VerticalAlignment="Top" Height="27" Width="61" Background="#FFD2D2D2" RenderTransformOrigin="0.954,0.508"/>
         <Button Click="Salir"  Content="Salir" HorizontalAlignment="Left" Margin="707,10,0,0" VerticalAlignment="Top" Height="27" Width="61" RenderTransformOrigin="0.954,0.508" Foreground="White">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">

@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="152708-pulpo-tiburn-oceano-el_minimalismo-azul-x750.jpg" />
     <None Remove="BackgroundControlPiscinas.jpg" />
     <None Remove="conjunto-mamiferos-marinos_21565-44.jpg" />
     <None Remove="Contacto.png" />
@@ -27,8 +28,12 @@
     <None Remove="RESMUNEMAMIFEROS.png" />
     <None Remove="salastitle.png" />
     <None Remove="salasWallpaper.png" />
+    <None Remove="Sin título-1.jpg" />
     <None Remove="tresenraya.png" />
     <None Remove="tropi.png" />
+    <None Remove="txtI.png" />
+    <None Remove="txt_incio.png" />
+    <None Remove="wpbg.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -43,6 +48,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="152708-pulpo-tiburn-oceano-el_minimalismo-azul-x750.jpg" />
     <Resource Include="BackgroundControlPiscinas.jpg" />
     <Resource Include="conjunto-mamiferos-marinos_21565-44.jpg" />
     <Resource Include="Contacto.png" />
@@ -63,8 +69,12 @@
     <Resource Include="RESMUNEMAMIFEROS.png" />
     <Resource Include="salastitle.png" />
     <Resource Include="salasWallpaper.png" />
+    <Resource Include="Sin título-1.jpg" />
     <Resource Include="tresenraya.png" />
     <Resource Include="tropi.png" />
+    <Resource Include="txtI.png" />
+    <Resource Include="txt_incio.png" />
+    <Resource Include="wpbg.jpg" />
   </ItemGroup>
 
 </Project>

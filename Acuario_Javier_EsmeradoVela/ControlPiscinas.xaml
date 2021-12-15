@@ -42,7 +42,7 @@
                 <ColumnDefinition Width="10"/>
                 <ColumnDefinition Width="100"/>
             </Grid.ColumnDefinitions>
-            <Button x:Name="btn_añadir"  Content="AÑADIR" Grid.Column="0" Grid.Row="0" Width="100" Height="50" Click="AgregarSala">
+            <Button x:Name="btn_añadir"  Content="AÑADIR" Grid.Column="0" Grid.Row="0" Click="AgregarSala" Margin="0,0,19,9">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="#FF459CC5" Offset="0.106"/>
@@ -50,7 +50,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_modificar"  Content="MODIFICAR" Grid.Column="2" Grid.Row="0" Width="100" Height="50" Click="ModificarSala">
+            <Button x:Name="btn_modificar"  Content="MODIFICAR" Grid.Column="2" Grid.Row="0" Click="ModificarSala" Margin="0,0,16,8">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="#FF459CC5" Offset="0.106"/>
@@ -58,7 +58,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_eliminar"  Content="ELIMINAR" Grid.Column="4" Grid.Row="0" Width="100" Height="50" Click="EliminarSala">
+            <Button x:Name="btn_eliminar"  Content="ELIMINAR" Grid.Column="4" Grid.Row="0" Click="EliminarSala" Margin="0,0,16,8">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="#FF459CC5" Offset="0.106"/>
@@ -66,7 +66,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button x:Name="btn_salir"  Content="Salir" Grid.Column="6" Grid.Row="0" Width="100" Height="50" Click="Salir" Foreground="White" FontWeight="Normal" FontSize="16" >
+            <Button x:Name="btn_salir"  Content="Salir" Grid.Column="6" Grid.Row="0" Click="Salir" Foreground="White" FontWeight="Normal" FontSize="16" Margin="332,-7,-296,25" >
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="#FFAC0909"/>

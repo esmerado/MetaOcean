@@ -26,6 +26,7 @@
                     </Button>
                 </Grid>
             </Border>
+
             <Image Source="/Contacto.png" Margin="3,-17,389,332" Grid.RowSpan="2"/>
             <TextBox HorizontalAlignment="Left" Margin="38,46,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" Height="19"/>
             <TextBlock Text="Nombre:" TextWrapping="Wrap" Margin="38,25,645,332" Grid.Row="1" Foreground="White"/>
@@ -36,10 +37,7 @@
             <TextBlock Text="Texto:" TextWrapping="Wrap" Margin="38,177,645,180" Grid.Row="1" Foreground="White"/>
             <TextBox HorizontalAlignment="Left" Margin="38,198,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" Height="69"/>
             <Button Content="Enviar" Margin="38,284,663,52" Grid.Row="1" Background="#FF74B0EC" Foreground="Black"/>
-            <Image Source="/maps.jpg" Margin="264,60,7,-2" Grid.RowSpan="2"/>
-
-
-
+            <Image Source="/maps.jpg" Margin="276,54,23,4" Grid.RowSpan="2"/>
 
         </Grid>
     </Border>
